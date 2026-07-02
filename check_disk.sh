@@ -25,7 +25,7 @@ else
 fi
 
 
-echo "Аптайм"
-uptime -p
+UPTIME=$(uptime -p)
+echo "Аптайм сервера: $UPTIME"
 
 echo "Проверка завершена"
