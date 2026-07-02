@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-THRESHOLD=15
+THRESHOLD=20
+
 USAGE=$(df / | tail -1 | awk '{print $5}' | tr -d '%')
 
 echo "Текущее использование диска: $USAGE%"
