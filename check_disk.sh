@@ -25,6 +25,7 @@ else
 fi
 
 
-
 echo "Аптайм"
 uptime -p
+
+echo "Проверка завершена"
